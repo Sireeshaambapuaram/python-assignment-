@@ -1,12 +1,10 @@
 # define a function to check if a given number is an Armstrong number
 def is_armstrong_number(number):
-    # convert the number to a string to access its digits
     num_str = str(number)
-    # calculate the sum of the digits raised to the appropriate power
     num_sum = sum(int(digit)**len(num_str) for digit in num_str)
-    # return True if the sum is equal to the original number, else False
+    
     return num_sum == number
-
-# call the function with a test number and print the result
 test_number = 153
 print(f"{test_number} is Armstrong: {is_armstrong_number(test_number)}")
+output:
+153 is Armstrong: True
