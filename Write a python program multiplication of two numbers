@@ -4,4 +4,4 @@ b = 4
 c = a * b
 print(c)
 Output:
-print(3 * 4)
+c=12
