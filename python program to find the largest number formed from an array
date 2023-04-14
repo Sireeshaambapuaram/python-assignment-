@@ -1,0 +1,10 @@
+arr = [54, 546, 548, 60]
+
+# define a function to sort the array in descending order based on the concatenated string of the numbers
+def largest_number(arr):
+    arr = [str(x) for x in arr]
+    arr.sort(reverse=True, key=lambda x: x * 3)
+    return ''.join(arr)
+
+# call the function and print the result
+print(largest_number(arr))
