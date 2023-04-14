@@ -9,3 +9,6 @@ new_string = string[:i] + string[i+1:]
 
 print("Original string:", string)
 print("New string:", new_string)
+output:
+Original string: Hello, World!
+New string: Hello, orld!
