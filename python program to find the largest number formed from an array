@@ -5,6 +5,7 @@ def largest_number(arr):
     arr = [str(x) for x in arr]
     arr.sort(reverse=True, key=lambda x: x * 3)
     return ''.join(arr)
-
-# call the function and print the result
 print(largest_number(arr))
+output:
+6054854654
+
