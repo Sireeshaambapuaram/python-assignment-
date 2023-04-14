@@ -1,0 +1,11 @@
+# define the input string
+string = "Hello, World!"
+
+# define the index of the character to be removed
+i = 7
+
+# remove the i-th character from the string
+new_string = string[:i] + string[i+1:]
+
+print("Original string:", string)
+print("New string:", new_string)
